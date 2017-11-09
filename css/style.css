@@ -1,0 +1,294 @@
+/*bootstrap standard screen sizes 
+less than 768,
+768-992,
+992-1200, 
+1200+ */
+@media screen and (max-width: 767px) {
+  :root {
+    font-size: 0.45rem;
+  }
+  
+  .container-fluid{
+    padding: 0 5% ;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 0.45rem;
+  }
+  .container-fluid{
+    padding: 0 7%;
+    margin: 0.5rem 0 ;
+  }
+
+}
+
+@media screen and (min-width: 990px) {
+  :root {
+    font-size: 0.5rem;
+  }
+  .container-fluid{
+    padding: 0 13%;
+    margin: 0.5rem 0 ;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    font-size: 0.6rem;
+  }
+    
+  .container-fluid{
+    padding: 0 15%;
+    margin: 0.5rem 0 ;
+  }
+
+}
+
+
+
+body{
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  color: hsl(199,80%,20%);
+  margin-bottom: 0;
+  padding-top: 3rem;
+  padding-bottom: 0;
+  /* Background pattern from Subtle Patterns */
+  background-image: 
+    linear-gradient(hsla(199, 100%, 45%, 0.6), hsla(199, 100%, 45%, 0.2)), url("https://www.transparenttextures.com/patterns/gplay.png");
+  /*https://www.toptal.com//designers/subtlepatterns/patterns/fresh_snow.png*/
+  
+  /* circuit board url
+  https://previews.123rf.com/images/pzaxe/pzaxe1304/pzaxe130400029/18873450-Circuit-board-vector-computer-seamless-technological-background-electronic-black-and-white-pattern-Stock-Vector.jpg
+  */
+}
+
+
+
+.navbar-default {  
+  color:  hsl(199, 90%, 95%);
+  background-color: hsl(199, 100%, 45%);
+  background-image: 
+    linear-gradient(hsla(199, 100%, 45%, 1), hsla(199, 90%, 40%,0.7), hsla(199, 100%, 45%, 1));
+}
+
+.navbar-default .navbar-nav>li>a{  
+  color:  hsl(199, 90%, 95%);
+  font-size: 3rem;
+  font-family: 'Iceland', cursive;
+}
+
+.navbar-default .navbar-brand{
+  font-family: 'Iceland', cursive;
+  font-size: 4.5rem;  
+  color:  hsl(199, 90%, 95%);
+}
+
+
+.navbar-default .navbar-nav>.active> a, 
+.navbar-default .navbar-nav>.active> a:focus, 
+.navbar-default .navbar-nav>.active> a:hover {
+  background: hsla(199, 100%, 60%,0.8); /* Active element in navbar */
+  color:  hsl(199, 100%, 97%);
+}
+
+.navbar .nav > li > a:hover, .navbar .navbar-header > a:hoover {
+    color: hsl(199,100%,20%);
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+     color:  hsl(199, 100%, 97%);
+     cursor: default;
+}
+
+nav{
+  padding: 0 5%;
+}
+
+
+.new-row{
+  padding: 5%;
+  margin: 0;
+}
+
+
+#about{
+  background-color: hsl(199, 100%, 90%);
+  text-align: justify;
+}
+
+
+.myPhoto{
+  border-radius: 50%;
+  border: 3px solid hsl(199, 70%, 20%);
+  width: 18rem;
+  margin: 0.5em;
+}
+
+
+.social-media-container{
+    text-align: center;
+    margin: 3rem 0 0 0;
+    padding: 1rem 0 ;
+    border: 0.3rem solid hsla(199,100%,97%,0.9);
+    border-left: none;
+    border-right: none;
+    background-color: hsla(199,100%,80%,0.5);
+    
+}
+
+.social-media{
+    display: inline-block;
+    padding: 0 1rem;
+    margin: 0rem 0.25rem;
+    
+}
+
+.social-media>a{
+    color: hsl(199,80%,20%);
+}
+
+.social-media>a:hover{
+    color: hsl(199,90%,60%);
+}
+
+
+.skills-section{
+  background-color: hsl(199, 100%, 93%);
+}
+.portfolio{
+  background-color: hsl(199, 100%, 95%);
+}
+.contact{
+  background-color: hsl(199, 100%, 97%);
+}
+
+.footer{
+  background-color: 	hsl(199, 50%, 75%);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Container for skill bars */
+.containerBar {
+    width: 100%; /* Full width */
+    background-color: hsl(199, 10%, 85%); /* Grey background */
+    padding: 0;
+    margin: 2rem;
+}
+
+.skills {
+    text-align: left; /* Right-align text */
+    padding-left: 1rem; /* Add some right padding */
+    line-height: 2.5rem; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; 
+    font-size: 1.5rem;
+}
+
+/* skill bars colors and widths*/
+.html {
+  width: 0%; 
+  background-color: 	hsl(199, 100%, 80%);
+} 
+.css {
+  width: 0%;  
+  background-color: 	hsl(199, 100%, 80%);} 
+.js {
+  width: 0%; 
+  background-color: 	hsl(199, 100%, 80%);} 
+.jquery {
+  width: 0%; 
+  background-color: 	hsl(199, 100%, 80%);
+}
+.bootstrap{
+  width: 0%; 
+  background-color: 	hsl(199, 100%, 80%);
+}
+.java{
+  width: 0%; 
+  background-color: 	hsl(199, 100%, 80%);
+}
+
+/* Portfolio section styling*/
+.project-box{
+    color:  hsl(199, 10%, 97%);
+    background: hsla(199, 100%, 45%,0.7);
+    padding: 0.5rem  0 0 0 ;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    cursor: pointer;
+    border: white solid 3px;
+}
+
+.project-box-details-click{
+    padding: 1rem 0;
+    cursor: pointer;
+    border-top: hsl(199, 10%, 97%) dashed 1px;
+    font-style: italic;
+    
+}
+
+.project-box-details{
+    text-align: justify;
+    background: hsla(199, 80%, 45%,0.3);
+    margin: 1rem 0 0 0 ;
+    padding: 2rem 2rem 2rem 4rem;
+    font-size: 1.5rem;
+    border-radius: 0 0 1rem 1rem ;
+    cursor: pointer;
+    border-top: hsl(199, 10%, 97%) dashed 1px;
+}
+
+.project-box-details a{
+    color: hsla(199, 100%, 95%,0.8);
+    
+}
+
+
+
+.indent{
+    text-indent: -2rem;
+}
+
+.indent:first-line{
+    text-indent: 0;
+}
+
+
+.form-control {
+    border: none;
+    border-bottom: 0.3em solid hsla(199, 100%, 30%,0.7);
+    background-color: 	hsla(199, 100%, 87%,0.2);
+    border-radius: 0;
+    resize: none;
+}
+
+.form-control:focus{
+    border-bottom: 0.3em solid hsla(199, 100%, 40%,0.7);
+}
+
+
+.padding5percent{
+  padding: 3% 5% 5% 5%;
+}
+
+label{
+  padding: 0 0 0 2%;
+}
+
+.btn-primary{
+    background: hsla(199, 100%, 30%,0.7);
+    color: hsl(199, 100%, 97%);
+}
+
+.btn-primary:hover{
+    background: hsla(199, 100%, 40%,0.7);
+    color: hsl(199, 100%, 95%);
+}
